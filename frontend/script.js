@@ -165,7 +165,7 @@ analyzeBtn.addEventListener("click", async () => {
         // Convert image to Base64
         const base64 = await toBase64(selectedFile);
 
-        const response = await fetch("https://visionai-backend.onrender.com/api/analyze", {
+        const response = await fetch("https://visionai-backend-cm2z.onrender.com/api/analyze", {
 
             method: "POST",
 
